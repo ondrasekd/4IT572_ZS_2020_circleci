@@ -32,6 +32,19 @@ npm run wdio
 
 
 ```
+### Docker
+
+```javascript
+
+/* clone repo */
+
+/* build docker image*/
+docker build -t devops:1 .
+
+// port 3000
+docker run -p 3000 devops:1
+
+```
 
 ## About tests .
 
